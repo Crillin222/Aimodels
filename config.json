@@ -1,0 +1,27 @@
+{
+  "models": [
+    {
+      "title": "DeepSeek R1 (Notebook Local)",
+      "provider": "ollama",
+      "model": "deepseek-local"
+    },
+    {
+      "title": "Qwen 2.5 Coder (Notebook Local)",
+      "provider": "ollama",
+      "model": "qwen-local"
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "Qwen Autocomplete",
+    "provider": "ollama",
+    "model": "qwen-local"
+  },
+  "contextProviders": [
+    { "name": "codebase", "params": {} },
+    { "name": "open", "params": {} }
+  ],
+  "slashCommands": [
+    { "name": "edit", "description": "Modificar código" },
+    { "name": "explain", "description": "Explicar código" }
+  ]
+}
